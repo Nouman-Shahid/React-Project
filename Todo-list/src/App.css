@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Varela+Round&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(236, 236, 236) ;
+    font-family: 'Exo', sans-serif;
+}
+
+/* blue: #6b79e1 */

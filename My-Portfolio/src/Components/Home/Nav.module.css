@@ -1,0 +1,149 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    padding: 1.5vh 3vw;
+    height: 10vh;
+    background-color: rgb(58, 49, 49);
+    box-shadow: 1vh 1vh 1vh rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    z-index: 100; 
+  }
+  
+.activeLink{
+
+    color: rgb(206, 64, 64);
+}
+.name{
+    margin-top: 1.5vh;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+}
+nav label{
+
+    font-size: 2.5rem;
+    color: rgb(206, 64, 64);
+    cursor: pointer;
+}
+nav label:hover{
+    animation: changecolor 2s 1;
+
+}
+@keyframes changecolor {
+    0%{
+        color: rgb(187, 169, 164);
+    }
+    100%{
+        color: rgb(206, 64, 64);
+    }
+}
+
+
+nav ul {
+
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+nav ul li{
+
+    list-style: none;
+    cursor: pointer;
+    display: block;
+    font-size: 3vh;
+    margin: 1vw;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.2vw;
+    font-weight: 500;
+}
+
+
+nav ul li:hover{
+
+    color: rgb(206, 64, 64);
+
+}
+
+.menubar{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+    display: none;
+}
+
+.menubar img{
+    
+    height: 4vh;
+}
+
+
+  
+
+  @media only screen and (max-width:866px) {
+
+    
+    .menubar{
+        display: flex;
+    }
+
+    nav {
+
+        display: flex;
+        padding: 1vh 3vh;
+      
+    }
+
+    nav ul
+    {
+        background-color: rgb(58, 49, 49);
+        padding: 2vh 3vw;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 8vh;
+        left: 0;
+        border-bottom-left-radius: 2vh;
+        border-bottom-right-radius: 2vh;
+        animation: menubar 1.5s 1;
+        display: none;
+        flex-direction: column;
+        align-items: start;
+    
+
+    }
+    
+    @keyframes menubar {
+        0%{
+            transform: translateX(10vw);
+            opacity: 0;
+        }
+        100%{
+            transform: translateX(0vw);
+            opacity: 1;
+        }
+    }
+
+    nav ul li{
+
+        text-decoration: none;
+        color: rgb(235, 235, 235);
+    }
+}
+  
+
+@media only screen and (max-width:500px) {
+
+    nav label{
+
+        font-size: 2rem;
+       
+    }
+    
+}

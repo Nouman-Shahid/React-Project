@@ -1,0 +1,151 @@
+.project {
+    height: auto;
+    background-color: rgb(58, 42, 42);
+    display: flex;
+    flex-direction: column;
+    padding: 13vh 2vw;
+}
+
+.project h3 {
+
+    color: rgb(238, 68, 68);
+    font-size: 3vh;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.project h3 span {
+
+    color: rgb(231, 228, 228);
+    font-size: 5vh;
+
+}
+
+.project h2 {
+
+    margin: 3vh auto;
+    color: white;
+
+}
+
+
+.container {
+
+    padding: 15vh 2vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.codingimg {
+
+    height: 60vh;
+    width: 25vw;
+    border-radius: 2vh;
+    opacity: 0.9;
+    box-shadow: 1vh 1vh 3vh rgba(124, 122, 122, 0.5);
+
+}
+
+
+.intro {
+
+    width: 80%;
+    padding: 0vh 8vw;
+}
+
+.intro h2 {
+    color: rgb(206, 64, 64);
+    font-size: 2.5vw;
+}
+
+.intro p {
+
+    margin-top: 5vh;
+    color: white;
+}
+
+.intro {
+
+    margin: 5vh 0vw;
+}
+
+.intro a {
+    text-decoration: none;
+}
+
+.intro button {
+    all: unset;
+    padding: 1vh 2vw;
+    margin: 5vh 0vw;
+    cursor: pointer;
+    background-color: rgb(199, 50, 50);
+    color: azure;
+    border-radius: 1vh;
+    border: 2px solid rgb(199, 50, 50);
+    transition: 800ms;
+    box-shadow: 1vh 1vh 2vh rgba(0, 0, 0, 0.5);
+
+}
+
+.intro button:hover {
+
+    background-color: transparent;
+
+}
+
+@media only screen and (max-width:991px) {
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .codingimg {
+
+        display: none;
+    }
+
+
+    .intro {
+        margin: 1vh 0vw;
+        width: 100%;
+        padding: 0vh 2vw;
+        text-align: start;
+
+    }
+
+    .intro h2 {
+        font-size: 5vh;
+
+    }
+
+    .intro p {
+        font-size: 1em;
+
+    }
+
+
+}
+
+@media only screen and (max-width:400px) {
+
+    .intro p {
+        font-size: 0.75em;
+    }
+
+    .intro button{
+
+        font-size: 0.75em;
+        width: 10em;
+        text-align: center;
+    }
+
+    .intro h2 {
+        font-size: 1.4em;
+
+    }
+
+
+}

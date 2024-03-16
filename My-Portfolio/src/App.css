@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+     width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+
+.dark-card {
+    background-color: rgba(0, 0, 0, 0.2); /* Dark background color */
+    color: white; /* White text color */
+    box-shadow: 1vh 1vh 3vh rgba(0, 0, 0, 0.5);
+  }
+  
+  .dark-card .card-title {
+    color: white; /* White text color for card titles */
+  }
+  
+  .dark-card .card-text {
+    color: #ccc; /* Light gray text color for card text */
+  }
+  
+  .dark-card .card-footer p {
+    color: rgb(163, 151, 151); /* White text color for the footer text */
+  }
+  
+  .modal-body p {
+
+    color: black;
+  }
+  
+  .modal-header h1{
+
+    color: black;
+  }
+
+
+  /* width */
+::-webkit-scrollbar {
+  width: 2vh;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: rgb(68, 63, 63);
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 1vh;
+  background: rgb(175, 76, 76); 
+
+}

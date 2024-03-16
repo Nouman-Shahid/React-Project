@@ -1,0 +1,214 @@
+.contact {
+    height: auto;
+    background-color: rgb(58, 42, 42);
+    color: rgb(212, 204, 189);
+    display: flex;
+    padding: 12vh 3vw;
+    flex-direction: column;
+
+}
+
+.contact h3 {
+
+    color: rgb(238, 68, 68);
+    font-size: 3vh;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.contact h3 span {
+
+    color: rgb(231, 228, 228);
+    font-size: 5vh;
+
+}
+
+
+
+.container {
+
+    padding: 15vh 2vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.introimage {
+
+    height: 60vh;
+    width: 25vw;
+    border-radius: 2vh;
+    opacity: 0.9;
+    box-shadow: 1vh 1vh 3vh rgba(124, 122, 122, 0.5);
+}
+
+
+.intro {
+
+    width: 80%;
+    padding: 0vh 8vw;
+}
+
+.intro h2 {
+    color: rgb(206, 64, 64);
+    font-size: 2.5vw;
+}
+
+.intro p {
+
+    margin-top: 5vh;
+    color: white;
+}
+
+p img {
+
+    height: 5vh;
+}
+
+.intro {
+
+    margin: 5vh 0vw;
+}
+
+.intro a {
+    text-decoration: none;
+}
+
+.intro button {
+    all: unset;
+    padding: 1vh 1vw;
+    margin: 5vh 0vw;
+    cursor: pointer;
+    background-color: rgb(199, 50, 50);
+    color: azure;
+    border-radius: 1vh;
+    border: 2px solid rgb(199, 50, 50);
+    transition: 800ms;
+    box-shadow: 1vh 1vh 2vh rgba(0, 0, 0, 0.5);
+
+}
+
+.intro button:hover {
+
+    background-color: transparent;
+
+}
+
+
+footer {
+
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 15vh;
+    color: white;
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    padding: 2vh 4vw;
+
+}
+
+
+footer img {
+
+    height: 4vh;
+    margin: 0vh 1vw;
+}
+
+
+
+@media only screen and (max-width:991px) {
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introimage {
+
+        display: none;
+    }
+
+
+    .intro {
+        margin: 1vh 0vw;
+        width: 100%;
+        padding: 0vh 2vw;
+        text-align: start;
+
+    }
+
+    .intro h2 {
+        font-size: 5vh;
+
+    }
+
+    .intro p {
+        font-size: 1em;
+
+    }
+
+    p img {
+
+        height: 4vh;
+    }
+
+    .container {
+
+        padding: 10vh 2vw;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .contact {
+        padding: 5vh 3vw;
+
+    }
+
+
+}
+
+@media only screen and (max-width:500px) {
+    footer {
+
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    footer img {
+
+        height: 3.4vh;
+        margin: 1vh 2vw;
+    }
+
+}
+
+
+
+@media only screen and (max-width:400px) {
+
+    p img {
+
+        height: 2.8vh;
+    }
+    
+   
+
+    .intro button {
+
+        font-size: 0.8em;
+    }
+
+
+    .intro h2 {
+        font-size: 1.3em;
+
+    }
+
+    .intro p {
+        font-size: 0.75em;
+
+    }
+
+}

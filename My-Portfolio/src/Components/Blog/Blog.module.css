@@ -1,0 +1,124 @@
+.blog {
+  height: auto;
+  background-color: rgb(58, 49, 49);
+  display: flex;
+  flex-direction: column;
+  /* rgb(199, 50, 50) */
+  padding: 13vh 2vw;
+
+}
+
+.blog h4 {
+
+  color: rgb(238, 68, 68);
+  font-size: 1em;
+  margin: 0 auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.blog h4 span {
+
+  color: rgb(231, 228, 228);
+  font-size: 1.5em;
+
+}
+
+.readblog{
+
+  margin: 15vh 4vw;
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.readblog img{
+
+  border-radius: 2vh;
+  box-shadow: 1vh 1vh 3vh rgba(0, 0, 0, 0.5);
+}
+
+.blog a {
+  text-decoration: none;
+  color: rgb(238, 68, 68);
+
+}
+.follow:hover {
+  text-decoration: underline;
+
+}
+
+.readblog  a{
+  text-decoration: none;
+}
+
+.readblog button{
+  all: unset;
+  padding: 1vh 2vw;
+  margin: 5vh 0vw;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: rgb(199, 50, 50);
+  color: azure;
+  border-radius: 1vh;
+  border: 2px solid rgb(199, 50, 50);
+  box-shadow: 1vh 1vh 2vh rgba(0, 0, 0, 0.5);
+
+  transition: 800ms;
+}
+
+.readblog button:hover{
+
+  background-color: transparent;
+  
+}
+
+@media only screen and (max-width:1066px)
+{
+  .readblog{
+
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width:762px)
+{
+  .readblog img{
+
+    height: auto;
+    width: 100%;
+
+  }
+}
+
+
+
+@media only screen and (max-width:991px)
+{
+  
+
+  .readblog img{
+
+    border-radius: 1vh;
+  }
+
+  .readblog button{
+
+    font-size: 0.8em;
+
+  }
+}
+
+
+@media only screen and (max-width:991px)
+{
+
+.readblog button{
+
+  font-size: 0.7em;
+
+}
+
+}

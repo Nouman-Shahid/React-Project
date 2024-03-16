@@ -1,0 +1,25 @@
+.footer{
+    padding: 5vh 2vw;
+    margin-top: 10vh;
+    color: whitesmoke;
+    background-color: rgb(19, 18, 18);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul{
+
+    display: flex;
+}
+.footer ul li{
+
+    list-style: none;
+    margin: 0vh 1vw;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.footer ul li:hover{
+
+    color: red;
+}

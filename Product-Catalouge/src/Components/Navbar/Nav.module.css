@@ -1,0 +1,144 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw
+}
+
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    padding: 1vh 1vw;
+    color: whitesmoke;
+}
+
+.logo a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.logo a h4{
+
+    font-size: 3vh;
+}
+.logo img{
+
+    height: 6vh;
+    padding: 2vh;
+}
+
+nav ul{
+    display: flex;
+    padding: 1vh 1vw;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0vh 1vw;
+    cursor: pointer;
+    transition: 1s;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+nav ul li:hover{
+
+    color: red;
+}
+
+nav .btn{
+    padding: 1vh 2vw;
+    display: flex;
+
+}
+.shopcart{
+    display: flex;
+    width: 4.5vw;
+}
+
+sup{
+    color: rgb(212, 177, 111);
+    font-size: 2.5vh;
+    margin-left: -0.8vw;
+}
+
+nav .btn img{
+    height: 5.5vh;
+    cursor: pointer;
+    margin: 0vh 1vw;
+}
+
+
+.userloggedin{
+    border-radius: 50%;
+    margin-left: 2vw;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 1vw;
+    top: 10vh;
+    padding: 0vh 1vw;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 2vh;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid rgb(112, 110, 110);
+    background-image: linear-gradient(to bottom, rgb(28, 28, 37), rgb(27, 27, 31));
+}
+.profile .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile .box h3{
+    color: rgb(231, 145, 145);
+}
+.profile .back{
+
+    height: 3vh;
+    text-align: start;
+    cursor: pointer;
+}
+
+.profile .userinfo{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.userinfo .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.userinfo .text h3{
+    color: rgb(109, 105, 101);
+    font-size: 3vh;
+}
+
+.userinfo .text p{
+
+    font-size: 2.2vh;
+    color: rgb(174, 177, 177);
+}
+.profile .user{
+
+    border-radius: 50%;
+    height: 6.5vh;
+}
+
+.profile button{
+
+    padding: 0.5vh;
+    width: 8vw;
+}
