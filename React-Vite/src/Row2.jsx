@@ -7,10 +7,10 @@ const Row2 = () => {
             <div class="container text-center">
                 <div class="row" style={{ margin: "1vh" }}>
                     <div class="col-6">
-                        Do Homework for 1 hour
+                        Do Homework for 2 hour
                     </div>
                     <div class="col-4">
-                        19/3/2024
+                        21/3/2024
                     </div>
                     <div class="col-2">
                         <button type="button" class="btn btn-danger">Delete</button>
