@@ -1,19 +1,26 @@
-import Row1 from "./Row1.jsx"
-import Heading from "./Heading.jsx"
-import Row2 from "./Row2.jsx"
-import Row3 from "./Row3.jsx"
+import AddTodo from './Components/Add/addTodo.jsx'
+import ShowTodo from './Components/Display/ShowTodo.jsx'
 import './App.css'
 
 function App() {
 
-  return (
-    <>
-      <Heading />
+  let lists = [
+    {
+      text: 'Home Work',
+      date: '20/03/2024'
+    },
+    {
+      text: 'Do twenty push ups',
+      date: '22/03/2024'
+    },
+  ]
 
-      <Row1 />
-      <Row2 />
-      <Row3 />
-    </>
+  return (
+    <center>
+      <h1>Todo App</h1>
+      <AddTodo />
+      <ShowTodo list={lists} />
+    </center>
   )
 }
 
