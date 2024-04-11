@@ -27,6 +27,12 @@ const Project = () => {
       date: 'Posted this . Mar 2024'
     },
     {
+      video: "videos/mega-jumps.mp4",
+      title: 'Mega Jumps',
+      desc: `I created a 2D web game called Mega Jumps using React.js. It's inspired by Super Mario, featuring a parallax background, object collisions, and gravity.`,
+      date: 'Posted this . Dec 2023'
+    },
+    {
       video: "videos/yt.mp4",
       title: 'Youtube Clone',
       desc: 'I am proud to present my YouTube clone website, built with PHP, SQL, HTML, and CSS.',
@@ -49,12 +55,6 @@ const Project = () => {
       title: 'Zombie Slayer',
       desc: `I made a 2D game called 'Zombie Slayer.' In the game, you need to protect your character.I used React.js to create it.`,
       date: 'Posted this . Sep 2023'
-    },
-    {
-      video: "videos/mega-jumps.mp4",
-      title: 'Mega Jumps',
-      desc: `I created a 2D web game called Mega Jumps using React.js. It's inspired by Super Mario, featuring a parallax background, object collisions, and gravity.`,
-      date: 'Posted this . Dec 2023'
     },
   ];
 
