@@ -42,6 +42,13 @@ const Project = () => {
       poster: "thumbnails/yt-poster.png",
     },
     {
+      video: "videos/zombie.mp4",
+      title: "Zombie Slayer",
+      desc: `I made a 2D game called 'Zombie Slayer.' In the game, you need to protect your character.I used React.js to create it.`,
+      date: "Posted this . Sep 2023",
+      poster: "thumbnails/zombie-poster.png",
+    },
+    {
       video: "videos/bullet.mp4",
       title: "Bullet Hop",
       desc: `I've developed a 2D web-based game called 'Bullet Hop' using a combination of JavaScript, HTML and CSS.`,
@@ -54,13 +61,6 @@ const Project = () => {
       desc: `I've developed a web-based game called 'Sword & Shield.' I used React.js to build it.`,
       date: "Posted this . Aug 2023",
       poster: "thumbnails/sword-poster.png",
-    },
-    {
-      video: "videos/zombie.mp4",
-      title: "Zombie Slayer",
-      desc: `I made a 2D game called 'Zombie Slayer.' In the game, you need to protect your character.I used React.js to create it.`,
-      date: "Posted this . Sep 2023",
-      poster: "thumbnails/zombie-poster.png",
     },
   ];
 
