@@ -22,42 +22,38 @@ const About = () => {
     },
 
   ];
-  
+
   const experienceData = [
     {
-      title: "React Developer",
-      date: "Sep 2023 - Present",
-      description: "I always learn about the newest web tech, currently busy with React.js.",
+      title: "Laravel Developer",
+      date: "Aug 2024 - Present",
+      description: "I began my internship at TriCloud, where I’m currently working as a backend developer with the Laravel framework.",
     },
     {
-      title: "Web Developer",
+      title: "React/Next Developer",
       date: "Feb 2023 - Present",
-      description: "As a self-driven learner, I eagerly embrace opportunities to stay updated on the latest web development trends.",
+      description: "Enhancing my skills in creating web apps with ReactJS and NextJS.",
     },
     {
-      title: "Flutter Developer",
-      date: "Feb 2023 - Jun 2023",
-      description: "From February 2023, I've actively honed my Flutter app development skills.",
+      title: "Mobile Developement",
+      date: "July 2022 - Feb 2023",
+      description: "Since July 2022, I've gained mobile app insights and honed my Android studio and Flutter skills.",
     },
-    {
-      title: "Android Studio",
-      date: "Jul 2022 - Sep 2022",
-      description: "In July 2022, I undertook an Android Studio internship, gaining valuable mobile app insights.",
-    },
+
   ];
-  
+
   return (
     <>
-    
+
       <section className={styles.about}>
 
-      <h3 className={styles.h3} data-aos="fade-up" data-aos-duration="1500"> Profile And    <br /> <span>Experience</span></h3>
+        <h3 className={styles.h3} data-aos="fade-up" data-aos-duration="1500"> Profile And    <br /> <span>Experience</span></h3>
         <div className={styles.container}>
-          <img src="images/pic1.gif" className={styles.codingimg} data-aos="zoom-out-right" data-aos-duration="1000"/>
+          <img src="images/pic1.gif" className={styles.codingimg} data-aos="zoom-out-right" data-aos-duration="1000" />
           <div className={styles.intro} data-aos="zoom-out-left" data-aos-duration="1000">
             <h2>Introduction</h2>
             <p>Hi! My name is Numan Shahid. I am a Web developer, and I'm very passionate and dedicated to my work. I really enjoy making and programming things with computers.</p>
-            <p>I'm always learning and trying new things in the world of software. When I'm not doing that, I like to explore new tech ideas and solve fun coding puzzles. I'm excited about where my software journey will take me!"</p>
+            <p>I'm always learning and trying new things in the world of software. When I'm not doing that, I like to explore new tech ideas and solve fun coding puzzles. I'm excited about where my software journey will take me.</p>
             <a href='cv/cv.pdf' download><button>Download CV</button></a>
           </div>
         </div>
@@ -78,7 +74,7 @@ const About = () => {
                   </div>
                 </li>
               ))}
-             
+
             </ul>
           </div>
           <div className={styles.education}>
@@ -98,11 +94,11 @@ const About = () => {
               ))}
             </ul>
           </div>
-        </div>        
+        </div>
 
       </section>
 
-      
+
     </>
   );
 };

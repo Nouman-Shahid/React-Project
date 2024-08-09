@@ -109,7 +109,7 @@ const Home = () => {
           </h2>
 
           <p>
-            "Front-End Developer with <span>Full-Stack</span> Ambitions." 👨‍💻
+            "<span>Full-Stack</span> Developer & am continuously enhancing my skills" 👨‍💻
           </p>
 
           <div className={styles.btns}>
@@ -130,7 +130,7 @@ const Home = () => {
 
         <div className={styles.image}>
           <img
-            src="images/myimage.jpg"
+            src="images/profilepic.jpeg"
             alt=""
             data-aos="fade-left"
             data-aos-duration="1500"

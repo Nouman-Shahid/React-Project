@@ -14,6 +14,13 @@ const Project = () => {
 
   let carousel = [
     {
+      video: "videos/sticky-wall.mp4",
+      title: "Sticky Wall",
+      desc: `Built a NextJS Notes app in Typescript using Appwrite.`,
+      date: "Posted this . July 2024",
+      poster: "thumbnails/sticky-wall.png",
+    },
+    {
       video: "videos/facebook-clone.mp4",
       title: "Facebook Clone",
       desc: `Built a ReactJS Facebook clone app with user profile generation and article fetching APIs.`,
